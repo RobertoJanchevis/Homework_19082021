@@ -1,0 +1,32 @@
+print("Question 2 ************")
+coisas=["tv","pen","banana","videogame","juice","camera","potato"]
+
+print("Question 3 *********")
+for roberto in coisas[4:7]:
+    print(roberto)
+
+print("Question 4 *******")
+coisas.append("football")
+print(coisas)
+
+print("Question 5 *****")
+for roberto in coisas:
+    if roberto == "football":
+        print(roberto.lower())
+    else:
+            print(roberto.upper()+"!")
+
+print("Question6********")
+for pear in coisas:
+    if pear != "football":
+        print(pear)
+
+print("Question 7******")
+list=[]
+for roberto in range(10,21):
+    print(roberto)
+
+print("Question 8*******")
+for lego in range(10,21):
+    if lego < 16:
+        print(lego)
